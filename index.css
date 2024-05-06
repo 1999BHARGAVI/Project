@@ -61,3 +61,8 @@ body{
     border-radius: 30px 30px 30px 30px;
 
 }
+#header-background-image{
+    width: 100vw;
+    height: 100vh;
+    background-image: url("./images/businessman-sitting-by-table-cafe\ \(1\).jpg");
+}
