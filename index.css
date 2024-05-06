@@ -63,10 +63,10 @@ body{
 }
 #header-background-image{
     width: 100vw;
-    height: 100vh;
+    height: 80vh;
     border: 2px solid black;
-    background-image: url("./images/businessman-sitting-by-table-cafe\ \(1\).jpg");
-    background-size: cover;
+    background-image: url("./images/businessman-sitting-by-table-cafe\ \(1\).jpg"); 
+    background-size: 100% 90%;
     background-repeat: no-repeat;
     filter: brightness(0.6); 
 }
