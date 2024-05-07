@@ -106,7 +106,7 @@ body{
 }
 a {
     text-decoration: none;
-    /* color: white; */
+     color: white; 
 
 }
 
@@ -132,7 +132,7 @@ a {
 #section{
     width: 100vw;
     height:500vh;
-    border: 2px solid rgb(255, 74, 74);
+    
 }
 /* this is section in article1 part */
 #section-article1{
@@ -158,19 +158,19 @@ a {
 #article2{
     width:100vw ;
     height: 100vh;
-    border: 2px solid green;
+    
     text-align: center;
 }
 #article2-maindiv{
     width:100vw ;
     height: 80vh;
-    border: 2px solid green;
+    
     display: flex;
 }
 #article2-contentbox{
     width:50vw ;
     height: 80vh;
-    border: 2px solid rgb(49, 16, 232);
+    
 }
 #article2-contentbox-names{
     width: 36vw;
@@ -220,7 +220,7 @@ a {
 }
 #a-span0{
     color: black;
-    border: 2px solid black;
+    
     font-size: 1rem;
     padding: 20px;
     padding-right: 50px;
@@ -233,7 +233,7 @@ a {
 }
 #a-span1{
     color: black;
-    border: 2px solid black;
+    
     font-size: 1rem;
     padding: 20px;
     padding-right: 50px;
@@ -245,7 +245,7 @@ a {
 }
 #a-span2{
     color: black;
-    border: 2px solid black;
+    
     font-size: 1rem;
     padding: 20px;
     padding-right: 147px;
@@ -257,7 +257,7 @@ a {
 }
 #a-span3{
     color: black;
-    border: 2px solid black;
+
     font-size: 1rem;
     padding: 20px;
     padding-right: 147px;
@@ -289,7 +289,7 @@ a {
 #article2-content{
     width:50vw ;
     height: 80vh;
-    border: 2px solid rgb(63, 36, 238);
+    
 }
 #article2-h2tag{
     color: rgba(255, 166, 0, 0.951);
@@ -306,7 +306,7 @@ a {
     margin-top: 1px;
     overflow: scroll;
     overflow-x: hidden;
-    border: 10px solid yellow;
+    
 }
 
 .h1tag {
@@ -419,11 +419,50 @@ a {
 
     width: 25%;
     height: 200px;
-    margin-left: 350px;
+    margin-left: 150px;
     background-image: url("./images/portrait-mature-smiling-authoress-sitting-desk.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     border-radius: 10%;
 }
-
-
+/* this is article3 part */
+ #section-article3{
+    width: 100vw;
+    height: 100vh;
+    border: 2px solid  red;
+    display: flex;
+ }
+#section-article3-images{
+    width: 50vw;
+    height: 100vh;
+    border: 2px solid  rgb(74, 16, 222);
+}
+#section-article3-content{
+    width: 50vw;
+    height: 100vh;
+    border: 2px solid  rgb(74, 16, 222);
+    text-align: center;
+    padding: 20px;
+    
+}
+#article-img1{
+    width: 50vh;
+    height: 100vh;
+    
+}
+#article-img2{
+    width: 50vh;
+    height: 50vh;
+    border: 10px solid orange;
+    border-radius: 50%;
+    margin-bottom: 200px;
+    margin-left: 0px;
+    
+}
+.part4-content{
+    border: 2px solid black;
+    margin-top: 200px;
+    width: 20vw;
+    margin-left: 200px;
+    font-size: 1rem;
+}
