@@ -2,6 +2,7 @@
     box-sizing: border-box;
     padding: 0px;
     margin: 0px;
+    font-family: sans-serif;
 }
 body{
     width: 100vw;
@@ -11,7 +12,7 @@ body{
 /* this is header section */
 #headersection{
     width: 100vw;
-    height: 150vh;
+    height: 120vh;
     border: 2px solid black;
     position: relative;
 }
@@ -138,3 +139,36 @@ a {
     color: red;
     text-decoration: underline;
 }
+/* this is section part  */
+#section{
+    width: 100vw;
+    height:100vh;
+    border: 2px solid rgb(255, 74, 74);
+}
+/* this is section in article1 part */
+#section-article1{
+    width: 100vw;
+    height: 60vh;
+    border: 2px solid blue;
+    display: flex;
+}
+#article1-tablet{
+    width: 50vw;
+    height: 60vh;
+    border: 2px solid green;
+}
+#article1-tablet-content{
+    width: 50vw;
+    height: 60vh;
+    border: 2px solid green;
+    padding-left: 50px;
+    padding-top: 50px;
+    font-size: 1rem;
+    
+
+}
+#tablet-screen-img{
+    width: 50vw;
+    height: 60vh;
+}
+
