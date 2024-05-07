@@ -461,9 +461,9 @@ a {
 }
 .part4-content{
     border: 2px solid black;
-    margin-top: 50px;
+    
     width: 30vw;
-    margin-left: 200px;
+    margin-left: 100px;
     font-size: 1rem;
 }
 .part4-content>h2{
