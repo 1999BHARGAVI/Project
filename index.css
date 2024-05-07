@@ -429,18 +429,16 @@ a {
  #section-article3{
     width: 100vw;
     height: 100vh;
-    border: 2px solid  red;
     display: flex;
  }
 #section-article3-images{
     width: 50vw;
     height: 100vh;
-    border: 2px solid  rgb(74, 16, 222);
+    
 }
 #section-article3-content{
     width: 50vw;
     height: 100vh;
-    border: 2px solid  rgb(74, 16, 222);
     text-align: center;
     padding: 20px;
     
@@ -460,11 +458,12 @@ a {
     
 }
 .part4-content{
-    border: 2px solid black;
     
+    border: 2px solid black;
     width: 30vw;
     margin-left: 100px;
     font-size: 1rem;
+    margin-top: 200px;
 }
 .part4-content>h2{
     color: orange;
