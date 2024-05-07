@@ -13,7 +13,6 @@ body{
 #headersection{
     width: 100vw;
     height: 120vh;
-    border: 2px solid black;
     position: relative;
 }
 #header-navbar{
@@ -22,19 +21,10 @@ body{
     display: flex;
     justify-content:space-around;
     align-items: center;
-    border: 2px solid black;
     font-size: 1rem;
     background-color: rgb(0, 0, 0);
 }
-#header-nav-icon{
-    border: 2px solid black;
-    
-}
 
-#header-nav-names{
-
-    border: 2px solid black;
-}
 #header-nav-icon>a{
     text-decoration: none;
     color: rgb(255, 0, 0);
@@ -67,7 +57,6 @@ body{
 #header-background-image{
     width: 100vw;
     height: 80vh;
-    border: 2px solid black;
     background-image: url("./images/businessman-sitting-by-table-cafe\ \(1\).jpg"); 
     background-size: 100% 90%;
     background-repeat: no-repeat;
@@ -76,7 +65,7 @@ body{
 
 }
 #header-reviews-images{
-    border: 2px solid black;
+
     width: 50vw;
     height: 20vh;
     background-color: rgb(255, 165, 0);
@@ -93,7 +82,7 @@ body{
     margin-left: -17px;
 } 
 .header-imgbooks{
-    border: 2px solid black;
+    
     width: 40vw;
     margin-left: 45%;
     margin-top:-550px;
@@ -105,7 +94,7 @@ body{
     height: 500px;
 }
 .header-headings{
-    border: 2px solid black;
+
     width: 40vw;
     position:absolute;
     top: 200px;
@@ -117,7 +106,7 @@ body{
 }
 a {
     text-decoration: none;
-    color: white;
+    /* color: white; */
 
 }
 
@@ -142,33 +131,272 @@ a {
 /* this is section part  */
 #section{
     width: 100vw;
-    height:100vh;
+    height:500vh;
     border: 2px solid rgb(255, 74, 74);
 }
 /* this is section in article1 part */
 #section-article1{
     width: 100vw;
     height: 60vh;
-    border: 2px solid blue;
     display: flex;
 }
 #article1-tablet{
     width: 50vw;
     height: 60vh;
-    border: 2px solid green;
 }
 #article1-tablet-content{
     width: 50vw;
     height: 60vh;
-    border: 2px solid green;
     padding-left: 50px;
     padding-top: 50px;
     font-size: 1rem;
-    
-
 }
 #tablet-screen-img{
     width: 50vw;
     height: 60vh;
 }
+#article2{
+    width:100vw ;
+    height: 100vh;
+    border: 2px solid green;
+    text-align: center;
+}
+#article2-maindiv{
+    width:100vw ;
+    height: 80vh;
+    border: 2px solid green;
+    display: flex;
+}
+#article2-contentbox{
+    width:50vw ;
+    height: 80vh;
+    border: 2px solid rgb(49, 16, 232);
+}
+#article2-contentbox-names{
+    width: 20vw;
+    height: 30vw;
+    margin: 50px;
+    border: 5px solid rgba(255, 0, 0, 0.951);
+    margin-left: 250px;
+    padding: 110px;
+    border-radius: 20%;
+}
+#a-span{
+    color: black;
+    font-size: 1rem;
+    padding: 20px;
+    padding-right: 150px;
+    padding-left: 71px;
+    border-radius: 20px;
+    margin-left: -80px;
+    background-color: rgba(95, 158, 160, 0.742);
+}
+#a-span0{
+    color: black;
+    border: 2px solid black;
+    font-size: 1rem;
+    padding: 20px;
+    padding-right: 50px;
+    padding-left:40px;
+    border-radius: 20px;
+    margin-left: -200px;
+    margin-right: -180px;
+    background-color: rgba(95, 158, 160, 0.594);
+    
+}
+#a-span1{
+    color: black;
+    border: 2px solid black;
+    font-size: 1rem;
+    padding: 20px;
+    padding-right: 50px;
+    padding-left:40px;
+    border-radius: 20px;
+    margin-left: -200px;
+    margin-right: -180px;
+    background-color: rgba(95, 158, 160, 0.594);
+}
+#a-span2{
+    color: black;
+    border: 2px solid black;
+    font-size: 1rem;
+    padding: 20px;
+    padding-right: 147px;
+    padding-left:40px;
+    border-radius: 20px;
+    margin-left: -200px;
+    margin-right: -180px;
+    background-color: rgba(95, 158, 160, 0.594);
+}
+#a-span3{
+    color: black;
+    border: 2px solid black;
+    font-size: 1rem;
+    padding: 20px;
+    padding-right: 147px;
+    padding-left:40px;
+    border-radius: 20px;
+    margin-left: -200px;
+    margin-right: -180px;
+    background-color: rgba(95, 158, 160, 0.594);
+}
+#a-span2:hover{
+    background-color: rgba(255, 0, 0, 0.934);
+    color: white;
+}
+#a-span3:hover{
+    background-color: rgba(255, 0, 0, 0.934);
+    color: white;
+}
+#a-span1:hover{
+    background-color: rgba(255, 0, 0, 0.934);
+    color: white;
+}
+
+
+
+#a-span,#a-span0:hover{
+    background-color: rgba(255, 0, 0, 0.934);
+    color: white;
+}
+#article2-content{
+    width:50vw ;
+    height: 80vh;
+    border: 2px solid rgb(63, 36, 238);
+}
+#article2-h2tag{
+    color: rgba(255, 166, 0, 0.951);
+}
+
+#article2-h1tag{
+  font-size: 1.5rem;
+}
+.part3-content {
+
+    width: 900px;
+    height: 700px;
+    margin-left: 100px;
+    margin-top: 10px;
+    overflow: scroll;
+    overflow-x: hidden;
+
+}
+
+.h1tag {
+
+    width: 600px;
+    height: 300px;
+    margin-left: 100px;
+    padding-top: 15px;
+    background-color: rgba(0, 136, 255, 0.23);
+}
+
+.h1-ebook {
+    padding: 45px;
+    font-size: 1.5rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.part3-content-d1>p {
+    padding: 15px;
+    font-size: 1rem;
+    font-style: oblique;
+    padding-left: 50px;
+}
+
+.wrap {
+    display: flex;
+}
+
+.left {
+    flex: 1;
+    display: flex;
+}
+
+.left::after {
+    border-bottom: 10px dotted;
+    content: "";
+    flex: 1;
+}
+
+.main {
+
+    width: 100%;
+    height: 350px;
+    display: flex;
+    margin-left: 50px;
+
+}
+
+.main>.main1 {
+
+    width: 40%;
+    height: 350px;
+    background-image: url("./images/portrait-mature-smiling-authoress-sitting-desk.jpg");
+    background-repeat: no-repeat;
+    background-size: 500px;
+    border-radius: 20%;
+}
+
+.main>.main2 {
+
+    width: 40%;
+    height: 350px;
+    background-image: url("./images/businessman-sitting-by-table-cafe\ \(1\).jpg");
+    background-repeat: no-repeat;
+    background-size: 500px;
+    border-radius: 20%;
+    margin-left: 20px;
+}
+
+.tabbook {
+
+    width: 100%;
+    height: 350px;
+    display: flex;
+    margin-left: 20px;
+
+}
+
+.tabbook>.tabbook1 {
+
+    width: 50%;
+    height: 350px;
+    background-image: url("./images/tablet-screen-contents\ \(1\).jpg");
+    background-repeat: no-repeat;
+    margin-left: 5px;
+    background-size: contain;
+
+}
+
+.tabbook>.tabbook2 {
+
+    width: 50%;
+    height: 350px;
+
+    background-repeat: no-repeat;
+    background-size: 500px;
+
+    margin-left: 10px;
+
+}
+
+.tabbook2>p {
+    font-size: 1rem;
+    font-style: italic;
+    font-weight: lighter;
+}
+
+.content-d1 {
+
+    width: 90%;
+    height: 500px;
+    margin-left: 50px;
+    background-image: url("./images/portrait-mature-smiling-authoress-sitting-desk.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10%;
+}
+
 
