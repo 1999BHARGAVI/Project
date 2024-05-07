@@ -8,10 +8,12 @@ body{
     height: 100vh;
 
 }
+/* this is header section */
 #headersection{
     width: 100vw;
-    height: 100vh;
+    height: 150vh;
     border: 2px solid black;
+    position: relative;
 }
 #header-navbar{
     width: 100vw;
@@ -69,4 +71,65 @@ body{
     background-size: 100% 90%;
     background-repeat: no-repeat;
     filter: brightness(0.6); 
+    clip-path: polygon(0 0, 120% 0, 0 180%, 0 0);
+
+}
+#header-reviews-images{
+    border: 2px solid black;
+    width: 50vw;
+    height: 15vh;
+    background-color: rgb(255, 165, 0);
+
+    
+}
+#header-small-review-imgs1,#header-small-review-imgs2,#header-small-review-imgs3,#header-small-review-imgs4{
+    border-radius: 50%;
+    border: 10px solid white;
+    margin-left: 45px;
+} 
+#header-small-review-imgs2,#header-small-review-imgs3,#header-small-review-imgs4{
+    margin-left: -17px;
+} 
+.header-imgbooks{
+    border: 2px solid black;
+    width: 40vw;
+    margin-left: 30%;
+    margin-top:-500px;
+    position: absolute;
+    top: 850px;
+}
+.header-headings{
+    border: 2px solid black;
+    width: 20vw;
+    position:absolute;
+    top: 400px;
+    margin-left: 200px;
+    font-size: 1.5rem;
+}
+#headings-h1tag{
+    color:white
+}
+a {
+    text-decoration: none;
+    color: white;
+
+}
+
+.anchortag {
+
+    margin: 15px;
+    padding: 20px;
+    margin-left: -10px;
+
+}
+
+#anchortag1 {
+    background-color: orange;
+    padding: 10px;
+    border-radius: 50px;
+}
+
+#anchortag2:hover {
+    color: red;
+    text-decoration: underline;
 }
