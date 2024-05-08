@@ -759,8 +759,8 @@ a:hover h4 {
     }
     
      #header-nav-icon>a{
-       border: 2px solid yellow;
-       margin-left: -200px; 
+       
+       margin-left: -160px; 
        width: 30vw;
        padding: 20px;
     }
@@ -772,9 +772,10 @@ a:hover h4 {
      margin-top: -55px;
      padding-top: 30px;
     }
-    #header-nav-names:hover #header-nav-names>a{
+    #header-nav-names:hover>a{
         background-color:skyblue;
-        
+        visibility: visible;
+        width: 30vw;
     }
 
      
@@ -794,7 +795,7 @@ a:hover h4 {
         border-radius: 12px 12px 12px 12px;
         padding: 2px 2px 2px 2px;
         width: 30vw;
-        margin-left: 280px;
+        margin-left: 210px;
         margin-top: -250px;
         visibility: visible;
     }
