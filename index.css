@@ -7,7 +7,7 @@
 body{
     width: 100vw;
     height: 100vh;
-
+    overflow-x: hidden;
 }
 /* this is header section */
 #headersection{
@@ -23,12 +23,15 @@ body{
     align-items: center;
     font-size: 1rem;
     background-color: rgb(0, 0, 0);
+    z-index: 1;
+    position:fixed;
 }
+
 
 #header-nav-icon>a{
     text-decoration: none;
     color: rgb(255, 0, 0);
-    
+    display: flex;
 }
 #header-nav-names>a{
     text-decoration: none;
@@ -44,9 +47,14 @@ body{
     color: rgb(255, 0, 0);
 }
 #iconbook{
-    background-color: rgb(255, 165, 0);
+
+    border: 3px solid rgb(255, 255, 255);
+    width: 2.5vw;
+    height: 4vh;
+    padding: 6px;
+    margin-top: -5px;
     border-radius: 50%;
-    
+    background-color: rgba(255, 166, 0, 0.966);
 }
 #downloadbutton{
     border: 5px solid rgba(255, 0, 0, 0.99);
