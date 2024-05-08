@@ -10,7 +10,7 @@ body{
     overflow-x: hidden;
 }
 /* this is header section */
-#headersection{
+ #headersection{
     width: 100vw;
     height: 120vh;
     position: relative;
@@ -139,7 +139,7 @@ a {
 #anchortag2:hover {
     color: red;
     text-decoration: underline;
-}
+} 
 /* this is section part  */
 #section{
     width: 100vw;
@@ -357,7 +357,7 @@ a {
     border-bottom: 10px dotted;
     content: "";
     flex: 1;
-}
+} */
 
 .main {
 
@@ -733,6 +733,70 @@ a:hover h4 {
     border-radius: 50%;
     background-color: orangered;
 
+} 
+
+
+/* media queries */
+@media only screen and (max-width:480px) {
+    body{
+        background-color: aqua;
+        width: 100vw;
+        height: 100vh;
+        overflow-x: hidden;
+    }
+    #section{
+        width: 100vw;   
+    }
+
+
+     #header-navbar{
+        width: 100vw;
+        height: 20vh;
+        padding: 20px;
+        flex-direction: column;
+        background-color: black;
+
+    }
+    
+     #header-nav-icon>a{
+       border: 2px solid yellow;
+       margin-left: -200px; 
+       width: 30vw;
+       padding: 20px;
+    }
+    #header-nav-names{
+     background-image: url("./images/menu_40dp_FILL0_wght400_GRAD0_opsz40\ \(1\).png");
+     background-repeat: no-repeat;
+     background-size: 40px;
+     background-position: top center;
+     margin-top: -55px;
+     padding-top: 30px;
+    }
+    #header-nav-names:hover #header-nav-names>a{
+        background-color:skyblue;
+        
+    }
+
+     
+    #header-nav-names>a{
+          flex-direction: column;
+          display: flex;
+          text-align: center;
+          text-decoration: none;
+          color: white;
+          padding: 12px;
+          visibility: hidden;
+        
+    }
+    
+    #downloadbutton{
+        border: 3px solid rgba(255, 0, 0, 0.99);
+        border-radius: 12px 12px 12px 12px;
+        padding: 2px 2px 2px 2px;
+        width: 30vw;
+        margin-left: 280px;
+        margin-top: -250px;
+        visibility: visible;
+    }
+     
 }
-
-
