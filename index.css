@@ -499,7 +499,7 @@ a {
     border: 2px solid black;
     margin-top: 200px;
     position: absolute;
-    top: -310px;
+    top: -410px;
     margin-left: -180px;
 }
 .review1-background-img{
@@ -517,15 +517,15 @@ a {
 .review-img1{
     position: absolute;
     top: 110px;
-    margin-left: 200px;
+    margin-left: 270px;
 
 }
 .backgroundcolor-review1{
     
     width: 10vw;
     height: 25vh;
-    margin-top: -200px;
-    margin-left: 200px;
+    margin-top: -210px;
+    margin-left: 270px;
     position: absolute;
     top: 310px;
     background-color: rgba(255, 98, 0, 0.806);
