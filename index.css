@@ -495,12 +495,12 @@ a {
     
 }
 .part1-review-span{
-    width: 10vw;
+    width: 20vw;
     border: 2px solid black;
     margin-top: 200px;
     position: absolute;
     top: -310px;
-    margin-left: -210px;
+    margin-left: -180px;
 }
 .review1-background-img{
     
@@ -516,8 +516,8 @@ a {
 }
 .review-img1{
     position: absolute;
-    top: 150px;
-    margin-left: 270px;
+    top: 110px;
+    margin-left: 200px;
 
 }
 .backgroundcolor-review1{
@@ -537,7 +537,7 @@ a {
     width: 60px;
     font-size: 1rem;
     position: absolute;
-    top: 270px;
+    top: 170px;
     margin-left: 270px;
     color: white;
 }
@@ -545,7 +545,7 @@ a {
     width:20vw;
     height:10vh;
     position: absolute;
-    top: 470px;
+    top: 340px;
     margin-left: 190px;
     color: white;
     padding: 10px;
@@ -591,9 +591,9 @@ a {
 
 .footer-part6-inputs {
     width: 27vw;
-    height: 60vh;
+    height: 70vh;
     margin-left: 200px;
-    margin-top: 35%;
+    margin-top: 20%;
     background-color: white;
     border-radius: 10%;
     box-shadow: 10px 10px 10px 10px orangered;
