@@ -50,12 +50,15 @@ body{
 #iconbook{
 
     border: 3px solid rgb(255, 255, 255);
-    width: 2.5vw;
-    height: 4vh;
+    width: 3vw;
+    height: 5vh;
     padding: 0px;
     margin-top: -5px;
     border-radius: 50%;
     background-color: rgba(255, 166, 0, 0.966);
+}
+#ebook{
+    padding-left: 20px;
 }
 #downloadbutton{
     border: 5px solid rgba(255, 0, 0, 0.99);
