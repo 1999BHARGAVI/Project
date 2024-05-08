@@ -562,7 +562,7 @@ a {
 }
 #footer{
     width: 100vw;
-    height: 100vh;
+    height: 120vh;
     
     margin-top:200px ;
     display: flex;
@@ -585,7 +585,7 @@ a {
     width: 27vw;
     height: 60vh;
     margin-left: 200px;
-    margin-top: 200px;
+    margin-top: -90px;
     background-color: white;
     border-radius: 10%;
     box-shadow: 10px 10px 10px 10px orangered;
@@ -609,7 +609,7 @@ a {
 }
 
 input {
-    font-size: 2rem;
+    font-size: 1rem;
     margin-left: 80px;
     padding: 20px;
     border-radius: 30px 30px 30px 30px;
@@ -621,8 +621,8 @@ input {
 .user {
 
     width: 20px;
-    margin-top: -50px;
-    margin-left: 450px;
+    margin-top: -35px;
+    margin-left: 270px;
     visibility: hidden;
 
 }
@@ -636,14 +636,14 @@ input:hover {
 }
 
 button {
-    font-size: 2rem;
-    margin-left: 150px;
+     font-size: 1rem;
+
     padding: 20px;
     border-radius: 30px 30px 30px 30px;
     border: 2px solid orange;
     font-weight: bolder;
     background-color: rgba(255, 166, 0, 0.552);
-
+    margin-left:100px;
 }
 
 button:hover {
@@ -655,7 +655,7 @@ button:hover {
     width: 50%;
     height: 200px;
 
-    margin-top: 100px;
+    margin-top: -100px;
     height: 600px;
 
 }
@@ -664,14 +664,14 @@ button:hover {
     color: orangered;
     font-weight: bolder;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 2rem;
+    font-size: 1.5rem;
 }
 
 .footer-part6-contact h1 {
 
     font-weight: bolder;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 4rem;
+    font-size: 1.5rem;
     font-weight: bolder;
 }
 
@@ -679,7 +679,7 @@ button:hover {
 
     font-weight: bolder;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 2rem;
+    font-size: 1.5rem;
     font-weight: bolder;
     color: white;
     padding-top: 20px;
