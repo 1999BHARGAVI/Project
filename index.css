@@ -880,4 +880,30 @@ a:hover h4 {
         
         
     }
+    #section-article1{
+        width: 100vw;
+        height:130vh;
+        display: block;
+        border: 2px solid black;
+        margin-top: 600px;
+    }
+    #article1-tablet{
+        width: 100vw;
+        height: 60vh;
+        border: 2px solid red;
+    }
+    #tablet-screen-img{
+        width: 100vw;
+        height: 60vh;
+    }
+    #article1-tablet-content{
+        width: 100vw;
+        height: 70vh;
+        flex-wrap: wrap;
+        padding-left: 30px;
+        padding-top: 50px;
+        font-size: 1rem;
+        border: 2px solid green;
+
+    }
 }
