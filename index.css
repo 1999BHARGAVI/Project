@@ -741,7 +741,7 @@ a:hover h4 {
     body{
         background-color: aqua;
         width: 100vw;
-        height: 100vh;
+        height: auto;
         overflow-x: hidden;
     }
     #section{
@@ -821,7 +821,16 @@ a:hover h4 {
         padding-left: 15px;
         margin-top: 40px;
     }
+    #header-background-image{
+        width: 100vw;
+        height: 150vh;
+        background-image: url("./images/businessman-sitting-by-table-cafe\ \(1\).jpg"); 
+        background-size: 100% 90%;
+        background-repeat: no-repeat;
+        filter: brightness(0.6); 
+        clip-path: polygon(0 0, 120% 0, 0 180%, 0 0);
     
+    }
      
 
     
