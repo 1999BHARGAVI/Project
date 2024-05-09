@@ -831,9 +831,10 @@ a:hover h4 {
 
         width: 80vw;
         height: 20vh;
-        margin-top: -50px;
+        margin-top: 80px;
         margin-left: 40px;
         font-size: 1rem;
+        border: 2px solid yellow;
     }
     #header-small-review-imgs1,#header-small-review-imgs2,#header-small-review-imgs3,#header-small-review-imgs4{
          width: 10vw;
@@ -848,11 +849,12 @@ a:hover h4 {
     #header-review-span{
     
         position: absolute;
-        top: 650px;
+        top: 850px;
         width: 80vw;
         margin-left: -120px;
         color: red;
         font-size: 1.3rem;
+        
     }
      .material-symbols-outlined{
         color: orange;
@@ -861,12 +863,20 @@ a:hover h4 {
     
         width: 40vw;
         margin-left: 45%;
-        margin-top:-500px;
+        margin-top:-300px;
     
 
     }
     #header-onlinebook{
         width: 200px;
         height: 300px;
+    }
+    #header-reviews-images{
+
+        width: 50vw;
+        height: 20vh;
+        background-color: rgb(255, 165, 0);
+        margin-top: -75px;
+        
     }
 }
