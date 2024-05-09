@@ -755,7 +755,18 @@ a:hover h4 {
         padding: 20px;
         flex-direction: column;
         background-color: black;
+       
 
+    }
+    #iconsymbol{
+        background-image: url("./images/menu_40dp_FILL0_wght400_GRAD0_opsz40\ \(1\).png");
+         background-repeat: no-repeat;
+        background-size: contain;
+        background-position: center center;
+        width: 15vw;
+        padding: 10px;
+        margin: -50px;
+        
     }
     
      #header-nav-icon>a{
@@ -764,22 +775,15 @@ a:hover h4 {
        width: 30vw;
        padding: 20px;
     }
-    #header-nav-names{
-     background-image: url("./images/menu_40dp_FILL0_wght400_GRAD0_opsz40\ \(1\).png");
-     background-repeat: no-repeat;
-     background-size: 40px;
-     background-position: top center;
-     margin-top: -55px;
-     padding-top: 30px;
-    }
-    #header-nav-names:hover>a{
+    
+    #iconsymbol:hover  #header-nav-names>a    {
         background-color:skyblue;
         visibility: visible;
         width: 30vw;
     }
 
      
-    #header-nav-names>a{
+     #header-nav-names>a{
           flex-direction: column;
           display: flex;
           text-align: center;
@@ -796,8 +800,26 @@ a:hover h4 {
         padding: 2px 2px 2px 2px;
         width: 30vw;
         margin-left: 210px;
-        margin-top: -250px;
+        margin-top: -210px;
         visibility: visible;
+        
     }
+    #iconbook{
+
+        border: 3px solid rgb(255, 255, 255);
+        width: 9vw;
+        height: 7vh;
+        padding: 5px;
+    
+    
+    }
+    #ebook{
+        padding-left: 15px;
+    }
+    
+     
+
+    
+    
      
 }
