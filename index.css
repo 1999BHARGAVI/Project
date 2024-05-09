@@ -849,7 +849,7 @@ a:hover h4 {
     #header-review-span{
     
         position: absolute;
-        top: 1050px;
+        top: 1100px;
         width: 80vw;
         margin-left: -120px;
         color: red;
@@ -864,7 +864,7 @@ a:hover h4 {
         width: 40vw;
         margin-left: 45%;
         margin-top:-300px;
-        border: 2px solid yellow;
+        
     
 
     }
