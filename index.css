@@ -908,4 +908,282 @@ a:hover h4 {
         border: 2px solid green;
 
     }
+    
+    #article2{
+    width:100vw ;
+    height: 230vh; 
+    border: 2px solid yellow;
+}
+
+#article2-maindiv{
+    width:100vw ;
+    height:200vh; 
+    display:block;
+    border: 2px solid black;
+}
+
+#article2-contentbox{
+    width:100vw ;
+    height: 100vh;
+    border: 2px solid black;
+
+
+}
+
+
+#article2-contentbox-names{
+    width: 90vw;
+    height: 120vw;
+    margin: 20px;
+    border: 5px solid rgba(255, 0, 0, 0.951);
+    margin-left: 15px;
+    padding-left: 20px;
+    border-radius: 20%;
+    padding-top: -90px;
+    /*
+.part3-content {
+
+    width: 900px;
+    height: 700px;
+    margin-left: 100px;
+    margin-top: 10px;
+    overflow: scroll;
+    overflow-x: hidden;
+
+}
+
+.h1tag {
+
+    width: 600px;
+    height: 300px;
+    margin-left: 100px;
+    padding-top: 15px;
+    background-color: rgba(0, 136, 255, 0.23);
+}
+
+.h1-ebook {
+    padding: 45px;
+    font-size: 3rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+}
+#a-span{
+    color: black;
+    font-size: 1rem;
+    padding: 20px;
+    padding-right: 150px;
+    padding-left: 71px;
+    border-radius: 20px;
+    margin-left: -25px;
+    background-color: rgba(95, 158, 160, 0.742);
+}
+#a-span0{
+    color: black;
+    
+    font-size: 1rem;
+    padding: 20px;
+    padding-right: 50px;
+    padding-left:40px;
+    border-radius: 20px;
+    margin-left: -200px;
+    margin-right: -180px;
+    background-color: rgba(95, 158, 160, 0.594);
+    
+}
+#a-span1{
+    color: black;
+    
+    font-size: 1rem;
+    padding: 20px;
+    padding-right: 50px;
+    padding-left:40px;
+    border-radius: 20px;
+    margin-left: -200px;
+    margin-right: -180px;
+    background-color: rgba(95, 158, 160, 0.594);
+}
+#a-span2{
+    color: black;
+    
+    font-size: 1rem;
+    padding: 20px;
+    padding-right: 147px;
+    padding-left:40px;
+    border-radius: 20px;
+    margin-left: -200px;
+    margin-right: -180px;
+    background-color: rgba(95, 158, 160, 0.594);
+}
+#a-span3{
+    color: black;
+
+    font-size: 1rem;
+    padding: 20px;
+    padding-right: 147px;
+    padding-left:40px;
+    border-radius: 20px;
+    margin-left: -200px;
+    margin-right: -180px;
+    background-color: rgba(95, 158, 160, 0.594);
+}
+#a-span2:hover{
+    background-color: rgba(255, 0, 0, 0.934);
+    color: white;
+}
+#a-span3:hover{
+    background-color: rgba(255, 0, 0, 0.934);
+    color: white;
+}
+#a-span1:hover{
+    background-color: rgba(255, 0, 0, 0.934);
+    color: white;
+}
+
+
+
+#a-span,#a-span0:hover{
+    background-color: rgba(255, 0, 0, 0.934);
+    color: white;
+}
+#article2-content{
+    width:50vw ;
+    height: 80vh;
+    
+}
+#article2-h2tag{
+    color: rgba(255, 166, 0, 0.951);
+}
+
+#article2-h1tag{
+  font-size: 1.5rem;
+}
+.part3-content {
+
+    width:50vw;
+    height:80vh;
+    margin-left: -10px;
+    margin-top: 1px;
+    overflow: scroll;
+    overflow-x: hidden;
+    
+}
+
+.h1tag {
+
+    width:230px;
+    height: 200px;
+    margin-left:40%;
+    padding-top: 15px;
+    background-color: rgba(0, 136, 255, 0.23);
+}
+
+.h1-ebook {
+    padding: 45px;
+    font-size: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.part3-content-d1>p {
+    padding: 5px;
+    font-size: 1rem;
+    font-style: oblique;
+    padding-left: -10px;
+}
+
+.wrap {
+    display: flex;
+}
+
+.left {
+    flex: 1;
+    display: flex;
+}
+
+.left::after {
+    border-bottom: 10px dotted;
+    content: "";
+    flex: 1;
+} */
+
+/* .main {
+
+    width: 100%;
+    height: 350px;
+    display: flex;
+    margin-left: 50px;
+
+}
+
+.main>.main1 {
+
+    width: 25%;
+    height: 150px;
+    background-image: url("./images/portrait-mature-smiling-authoress-sitting-desk.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 20%;
+}
+
+.main>.main2 {
+
+    width: 25%;
+    height: 150px;
+    background-image: url("./images/businessman-sitting-by-table-cafe\ \(1\).jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 20%;
+    margin-left: 20px;
+}
+
+.tabbook {
+
+    width: 50%;
+    height: 150px;
+    display: flex;
+    margin-left: 20px;
+
+}
+
+.tabbook>.tabbook1 {
+
+    width: 40%;
+    height: 150px;
+    background-image: url("./images/tablet-screen-contents\ \(1\).jpg");
+    background-repeat: no-repeat;
+    margin-left: 5px;
+    background-size: contain;
+
+}
+
+.tabbook>.tabbook2 {
+
+    width: 40%;
+    height: 350px;
+
+    background-repeat: no-repeat;
+    background-size: 500px;
+
+    margin-left: 10px;
+
+}
+
+.tabbook2>p {
+    font-size: 1rem;
+    font-style: italic;
+    font-weight: lighter;
+}
+
+.content-d1 {
+
+    width: 25%;
+    height: 200px;
+    margin-left: 150px;
+    background-image: url("./images/portrait-mature-smiling-authoress-sitting-desk.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10%;
+}
+     */ 
 }
