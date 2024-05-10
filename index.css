@@ -1169,9 +1169,9 @@ a:hover h4 {
     display: block;
  }
 #section-article3-images{
-    width: 100vw;
+    width: 10vw;
     height: 70vh;
-    border: 2px solid black;
+    
     
 }
 #section-article3-content{
@@ -1182,7 +1182,7 @@ a:hover h4 {
     
 }
 #article-img1{
-    width: 100vw;
+    width: 40vw;
     height: 50vh;
     
 }
@@ -1190,13 +1190,13 @@ a:hover h4 {
     width: 30vh;
     height: 30vh;
     margin-left: 160px;
-    margin-top:-100px ;
+    margin-top:-200px ;
     
     
 }
 .part4-content{
     
-    border: 2px solid black;
+    
     width: 100vw;
     height: 50vh;
     margin-left: -20px;
@@ -1212,6 +1212,17 @@ a:hover h4 {
     font-size: 1.5rem;
 }
 .section-article4{
+    width: 100vw;
+    height: 100vh;
+    border: 2px solid black;
+}
+
+
+
+
+
+
+/* .section-article4{
     width: 100vw;
     height: 100vh;
     text-align: center;
@@ -1274,7 +1285,7 @@ a:hover h4 {
     color: white;
     padding: 10px;
     font-size: 20px; */
-}
+/* }
 .reviewr-content>p{
     font-size: 1rem;
 }
@@ -1291,7 +1302,7 @@ a:hover h4 {
     width: 50px;
     height: 50px;
     margin-left: -60px;
-}
+} */
 
 /* .reviews{
     width: 100vw;
@@ -1363,8 +1374,9 @@ a:hover h4 {
     margin-left: 150px;
     color: white;
     padding: 10px;
-    font-size: 20px; */
+    font-size: 20px; 
 }
+
 .reviewr-content>p{
     font-size: 1rem;
 }
