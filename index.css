@@ -1243,11 +1243,12 @@ a:hover h4 {
     margin-left: -15px;
 }
 .part1-review-span{
-    width: 20vw;
+    border: 2px solid black;
+    width: 50vw;
     margin-top: 200px;
     position: absolute;
     top: -390px;
-    margin-left: -260px;
+    margin-left: -300px;
 }
 .review1-background-img{
     
