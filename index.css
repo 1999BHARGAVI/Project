@@ -357,7 +357,7 @@ a {
     border-bottom: 10px dotted;
     content: "";
     flex: 1;
-} */
+} 
 
 .main {
 
@@ -884,14 +884,13 @@ a:hover h4 {
         width: 100vw;
         height:130vh;
         display: block;
-        border: 2px solid black;
         margin-top: 200px;
 
     }
     #article1-tablet{
         width: 100vw;
         height: 60vh;
-        border: 2px solid red;
+    
     }
     #tablet-screen-img{
         width: 80vw;
@@ -905,27 +904,27 @@ a:hover h4 {
         padding-left: 30px;
         padding-top: 50px;
         font-size: 1rem;
-        border: 2px solid green;
+        
 
     }
     
      #article2{
     width:100vw ;
     height: 230vh; 
-    border: 2px solid yellow;
+    
 }
 
 #article2-maindiv{
     width:100vw ;
     height:200vh; 
     display:block;
-    border: 2px solid black;
+
 }
 
 #article2-contentbox{
     width:100vw ;
     height: 100vh;
-    border: 2px solid black;
+    
 
 }
 
@@ -1040,7 +1039,7 @@ a:hover h4 {
 #article2-content{
     width: 100vw ;
     height: 100vh;
-    border: 2px solid green;
+
     padding-left: -200px;
     
 }
@@ -1164,5 +1163,55 @@ a:hover h4 {
     background-size: cover;
     border-radius: 10%;
 } 
+#section-article3{
+    width: 100vw;
+    height: 100vh;
+    display: block;
+ }
+#section-article3-images{
+    width: 100vw;
+    height: 50vh;
+    border: 2px solid black;
+    
+}
+#section-article3-content{
+    width: 50vw;
+    height: 100vh;
+    text-align: center;
+    padding: 20px;
+    
+}
+#article-img1{
+    width: 100vh;
+    height: 50vh;
+    
+}
+#article-img2{
+    width: 30vh;
+    height: 30vh;
+    margin-left: 160px;
+    margin-top: 40px;
+    position: absolute;
+    top:2520px;
+    
+}
+.part4-content{
+    
+    border: 2px solid black;
+    width: 100vw;
+    height: 50vh;
+    margin-left: -20px;
+    font-size: 1rem;
+    margin-top: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.part4-content>h2{
+    color: orange;
+}
+.part4-content>h1{
+    font-size: 1.5rem;
+}
+
 }
      
