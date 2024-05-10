@@ -1190,10 +1190,8 @@ a:hover h4 {
     width: 30vh;
     height: 30vh;
     margin-left: 160px;
-    margin-top: 40px;
-    position: absolute;
-    top:1200px;
-    margin-top:1650px;
+    margin-top: -200px;
+    
     
 }
 .part4-content{
