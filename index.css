@@ -1213,10 +1213,38 @@ a:hover h4 {
 }
 .section-article4{
     width: 100vw;
-    height: 100vh;
+    height: 260vh;
     border: 2px solid black;
+    margin-top:50px ;
 }
+.reviews{
+    width: 100vw;
+    height: 250vh;
+    border: 2px solid black;
+    display: block;
+}
+.review1{
+    width: 70vw;
+    height: 70vh;
+    border: 2px solid black;
+    margin-left: 53px;
+    margin-top: 40px;
 
+}
+#review2{
+    width: 70vw;
+    height: 70vh;
+    border: 2px solid black;
+    margin-left: 53px;
+    margin-top: 40px;
+}
+#review3{
+    width: 70vw;
+    height: 70vh;
+    border: 2px solid yellow;
+    margin-left: 53px;
+    margin-top: 40px;
+}
 
 
 
