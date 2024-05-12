@@ -1489,22 +1489,6 @@ a:hover h4 {
         padding-top: 20px;
     }
     
-    iframe {
-        visibility: hidden;
-        margin-left: 600px;
-    }
-    
-    a:hover iframe {
-        visibility: visible;
-    }
-    
-    a:hover h4 {
-        color: orangered;
-    }
-    
-    .font-icons {
-        display: flex;
-    }
     
     .icons1 {
         width: 50px;
