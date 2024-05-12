@@ -1214,13 +1214,11 @@ a:hover h4 {
 .section-article4{
     width: 100vw;
     height: 260vh;
-    border: 2px solid black;
     margin-top:50px ;
 }
 .reviews{
     width: 100vw;
     height: 250vh;
-    border: 2px solid black;
     display: block;
 }
 .review1{
