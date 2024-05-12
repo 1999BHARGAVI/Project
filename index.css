@@ -1405,15 +1405,15 @@ a:hover h4 {
     
     #footer2 {
         width: 100vw;
-        height: 150vh;
+        height: 100vh;
         border: 2px solid black;
         padding-left: 30px;
     }
     
     .footer-part6-inputs {
-        width: 60vw;
-        height: 50vh;
-        margin-left: 100px;
+        width: 70vw;
+        height: 30vh;
+        margin-left: 80px;
         margin-top: 10%;
         background-color: white;
         border-radius: 10%;
