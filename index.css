@@ -795,9 +795,7 @@ a:hover h4 {
     #header-navbar:hover  #header-nav-names>a >#downloadbutton{
         margin-left: 120px;
     }
-    #downloadbutton:hover #header-nav-names>a {
-        visibility: hidden;
-    }
+
 
     #header-nav-names>a {
         flex-direction: column;
