@@ -1195,14 +1195,14 @@ a:hover h4 {
     .section-article4 {
         width: 100vw;
         height: 175vh;
-        border: 2px solid black;
+    
         margin-top: 50px;
     }
 
     .reviews {
         width: 100vw;
         height: 150vh;
-        border: 2px solid black;
+    
         display: block;
 
     }
