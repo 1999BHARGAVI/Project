@@ -751,7 +751,7 @@ a:hover h4 {
 /* media queries */
 @media only screen and (max-width: 480px) {
     body {
-        background-color: aqua;
+    
         width: 100vw;
         height: auto;
         overflow-x: hidden;
@@ -1399,7 +1399,7 @@ a:hover h4 {
 
     #footer {
         width: 100vw;
-        height: 50vh;
+        height: 70vh;
     
         margin-top: -100px;
         display: block;
@@ -1410,13 +1410,13 @@ a:hover h4 {
     #footer1 {
         width: 100vw;
         height: 70vh;
-       border: 2px solid black;
+       
     }
     
     #footer2 {
         width: 100vw;
         height: 70vh;
-        border: 2px solid black;
+    
         padding-left: 30px;
     }
     
