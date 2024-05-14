@@ -556,7 +556,7 @@ a {
     margin-left: 250px;
 }
 
-.backgroundcolor-review1 {
+.backgroundcolor-review11 {
     width: 10vw;
     height: 25vh;
     margin-top: -210px;
@@ -609,6 +609,145 @@ a {
     border-radius: 50%;
     border: 10px solid white;
 }
+
+
+.review-img2 {
+    position: absolute;
+    top: 110px;
+    margin-left: 250px;
+}
+.part1-review-span2 {
+    width: 20vw;
+    margin-top: 200px;
+    position: absolute;
+    top: -390px;
+    margin-left: -260px;
+}
+
+
+.backgroundcolor-review2 {
+    width: 10vw;
+    height: 25vh;
+    margin-top: -210px;
+    margin-left: 220px;
+    position: absolute;
+    top: 310px;
+    background-color: rgba(255, 98, 0, 0.806);
+    border-bottom-left-radius: 10%;
+    border-bottom-right-radius: 10%;
+}
+
+.reviewr-name2 {
+    width: 60px;
+    font-size: 1rem;
+    position: absolute;
+    top: 170px;
+    margin-left: 250px;
+    color: white;
+    margin-top: 20px;
+}
+
+.reviewr-content2 {
+    width: 20vw;
+    height: 10vh;
+    position: absolute;
+    top: 340px;
+    margin-left: 150px;
+    color: white;
+    padding: 10px;
+    font-size: 20px;
+}
+
+.reviewr-content2>p {
+    font-size: 1.5rem;
+}
+
+.reviewr-numbers2 {
+    width: 10vw;
+    position: absolute;
+    top: 470px;
+    margin-left: 300px;
+}
+
+.numberrating {
+    color: white;
+    font-size: 1.5rem;
+}
+
+.header-small-review-imgs2 {
+    border-radius: 50%;
+    border: 10px solid white;
+}
+
+
+.review-img3 {
+    position: absolute;
+    top: 110px;
+    margin-left: 250px;
+}
+.part1-review-span3 {
+    width: 20vw;
+    margin-top: 200px;
+    position: absolute;
+    top: -390px;
+    margin-left: -260px;
+}
+
+
+.backgroundcolor-review3 {
+    width: 10vw;
+    height: 25vh;
+    margin-top: -210px;
+    margin-left: 220px;
+    position: absolute;
+    top: 310px;
+    background-color: rgba(255, 98, 0, 0.806);
+    border-bottom-left-radius: 10%;
+    border-bottom-right-radius: 10%;
+}
+
+.reviewr-name3 {
+    width: 60px;
+    font-size: 1rem;
+    position: absolute;
+    top: 170px;
+    margin-left: 250px;
+    color: white;
+    margin-top: 20px;
+}
+
+.reviewr-content3 {
+    width: 20vw;
+    height: 10vh;
+    position: absolute;
+    top: 340px;
+    margin-left: 150px;
+    color: white;
+    padding: 10px;
+    font-size: 20px;
+}
+
+.reviewr-content3>p {
+    font-size: 1.5rem;
+}
+
+.reviewr-numbers3 {
+    width: 10vw;
+    position: absolute;
+    top: 470px;
+    margin-left: 300px;
+}
+
+.numberrating {
+    color: white;
+    font-size: 1.5rem;
+}
+
+.header-small-review-imgs3 {
+    border-radius: 50%;
+    border: 10px solid white;
+}
+
 
 #footer {
     width: 100vw;
