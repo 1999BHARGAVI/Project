@@ -18,6 +18,7 @@ body {
     position: relative;
 }
 
+
 #header-navbar {
     width: 100vw;
     height: 15vh;
@@ -28,6 +29,9 @@ body {
     background-color: rgb(0, 0, 0);
     z-index: 1;
     position: fixed;
+}
+#header-navbar > :hover header-nav-names>a{
+    visibility: visible;
 }
 
 #header-nav-icon>a {
@@ -775,6 +779,7 @@ a:hover h4 {
         margin: -50px;
         margin-top: -70px;
     }
+    
 
     #header-nav-icon>a {
         margin-left: -160px;
@@ -782,10 +787,16 @@ a:hover h4 {
         padding: 20px;
     }
 
-    #iconsymbol:hover #header-nav-names>a {
+    #header-navbar:hover  #header-nav-names>a  {
         background-color: skyblue;
         visibility: visible;
         width: 30vw;
+    }
+    #header-navbar:hover  #header-nav-names>a >#downloadbutton{
+        margin-left: 120px;
+    }
+    #downloadbutton:hover #header-nav-names>a {
+        visibility: hidden;
     }
 
     #header-nav-names>a {
