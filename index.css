@@ -1201,9 +1201,10 @@ a:hover h4 {
 
     .reviews {
         width: 100vw;
-        height: 250vh;
+        height: 100vh;
         border: 2px solid black;
         display: block;
+
     }
 
     .review1 {
